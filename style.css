@@ -1,0 +1,239 @@
+/**Générale*/
+.typo{
+    font-family: Monotype Corsiva;
+}
+.margeProfil{
+    padding-left: 20%;
+}
+.colorBlue{
+    color: #2F3F4E;
+}
+.background{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.taille{
+    font-size: 70px;
+}
+.center{
+    text-align: center;
+}
+.bordure{
+    border: #2F3F4E 3px solid;
+}
+.colorFond{
+    background-color: #2F3F4E;
+}
+
+/*Header*/
+.nav-taille{
+    font-size: 35px;
+    color: #FFF;
+    text-decoration: none;
+}
+.header{
+    margin-left: 30%;
+    padding: 2% 0;
+}
+.ecart{
+   margin-right: 20%;
+}
+/*Partie identite*/
+.identite{
+    background-image: url(image/developpeur.jpg);
+}
+.identite-nom{
+    padding-top: 10%;
+}
+.identite-metier{
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 10%;
+}
+.logo{
+    width: 6%;
+    margin-left: 6%;
+}
+
+/*partie présentation*/
+.profil{
+    background-image: url(image/7.jpg);
+}
+.profil-title{
+    margin-left: 60%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.profil-para{
+    text-align: justify;
+    margin-left: 50%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+.conclusion{
+    padding-bottom: 5%;
+    margin-bottom: 0;
+}
+/*partie projet*/
+.projet{
+    background-image: url(image/gris.jpg);
+}
+.projet-title{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.formation{
+    display: flex;
+    justify-content: space-around;
+}
+.formation-title{
+    border: #2F3F4E 1px solid;
+    margin: 0 20% 3%;
+    padding: 1% 0;
+    font-size: 35px;
+}
+.lien2{
+    text-decoration: none;
+}
+.card-img-top{
+    height: 40%;
+}
+.card{
+    height: 470px;
+}
+.card-title{
+    height: 150px;
+    font-size: 30px;
+}
+.btn{
+    background-color: #FFF;
+    font-weight: bold;
+    display: flow-root;
+    margin: 0 8%;
+    font-size: 25px;
+}
+
+/*Partie cv*/
+.cv{
+    background-image: url(image/empreinte.jpg);
+    padding: 5% 0;
+}
+.cv-title{
+    padding:0 10%;
+}
+.button{
+    margin: 3% 50% 0 10%;
+    font-size: 35px;
+}
+
+/*Partie contact*/
+.contact{
+    background-color: #CDCED0;
+    padding-bottom: 5%;
+}
+.positionContact{
+    display: flex;
+    justify-content: center; 
+}
+.icone{
+    list-style: none;
+}
+.tailleInfo{
+    font-size: 25px;
+}
+
+/*Partie footer*/
+.footer{
+    padding: 2% 21%;
+}
+.taillefooter{
+    font-size: 25px;
+    text-align: center;
+}
+.decoration{
+    text-decoration: underline;
+}
+
+/*Responsive tablette*/
+@media all and (max-width: 1024px){
+    .taille {
+        font-size: 50px;
+    }
+    .identite-metier {
+        font-size: 40px;
+        padding-bottom: 5%;
+    }
+    .margeProfil {
+        padding-left: 10%;
+    }
+    .nav-taille {
+        font-size: 25px;
+    }
+    .ecart {
+        margin-right: 6%;
+    }
+    .tailleInfo {
+        font-size: 20px;
+    }
+    .profil-title {
+        text-align: center;
+        margin-left: auto;
+    }
+    .profil-para {
+        margin-left: 7%;
+    }
+}
+@media all and (max-width: 767px){
+    .tailleInfo {
+        font-size: 10px;
+    }
+    .logo {
+        width: 25%;
+    }
+    .taille {
+        font-size: 25px;
+    }
+    .margeProfil {
+        padding-left: 5%;
+    }
+    .identite-metier {
+        font-size: 20px;
+    }
+    .formation-title {
+        margin: 0px 5% 3%;
+        font-size: 20px;
+    }
+    .formation {
+        display: block;
+        margin: 5%;
+    }
+    .profil-para {
+        font-size: 20px;
+    }
+    .card-title {
+        height: 60px;
+        font-size: 17px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .card {
+        height: 250px;
+    }
+    .projet {
+        padding-bottom: 5%;
+    }
+    ul{
+        padding: 0;
+    }
+    .resp{
+        padding-bottom: 9px;
+    }
+    .footer {
+        padding: 3% 4%;
+    }
+    .taillefooter {
+        text-align: center;
+    }
+}
