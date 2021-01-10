@@ -168,7 +168,7 @@
         padding-left: 10%;
     }
     .nav-taille {
-        font-size: 25px;
+        font-size: 35px;
     }
     .ecart {
         margin-right: 6%;
@@ -183,10 +183,16 @@
     .profil-para {
         margin-left: 7%;
     }
+    .header{
+        margin: 2% 8%;
+    }
+    .logo{
+        width: 14%;
+    }
 }
 @media all and (max-width: 767px){
     .tailleInfo {
-        font-size: 10px;
+        font-size: 13px;
     }
     .logo {
         width: 25%;
@@ -205,8 +211,7 @@
         font-size: 20px;
     }
     .formation {
-        display: block;
-        margin: 5%;
+        flex-direction: column;
     }
     .profil-para {
         font-size: 20px;
@@ -220,6 +225,7 @@
     }
     .card {
         height: 250px;
+        margin:0 auto;
     }
     .projet {
         padding-bottom: 5%;
@@ -234,6 +240,7 @@
         padding: 3% 4%;
     }
     .taillefooter {
+        font-size: 20px;
         text-align: center;
     }
 }
